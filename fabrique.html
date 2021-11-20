@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fabrique.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="shadow">
+           <div class="logo">
+                <img src="img/logo.png" alt="">
+           </div>
+           <div class="search">
+               <label for="recherche">
+                   <img src="img/rech.jpeg" alt="">
+               </label>
+               <div class="barre-recherche">
+                    <input type="search" name="cherche" id="recherche">
+                    <input type="submit" value="valider"> 
+               </div>
+           </div>
+           <div class="dropdown langue">
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>
+                Fr
+              </span> 
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Fr</a></li>
+              <li><a class="dropdown-item" href="#">Eng</a></li>            </ul>
+          </div>
+          <div class="hamberguer" onclick="Menu()">
+              <img src="img/hamberguer.png" alt="Menu">
+
+          </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="link ">
+                <h1>Menu</h1>
+                <hr>
+                <ul>
+                    <li><a href="#">Acceuil</a></li>
+                    <li><a href="#">La fabrique</a></li>
+                    <li><a href="#">Formations</a></li>
+                    <li><a href="#">Partenariats</a></li>
+                    <li><a href="#">Espaces</a></li>
+                    <li><a href="#">Entités</a></li>
+                </ul>
+                <button class="nous-contacter-nav">
+                    Contact
+                </button>
+            </div>
+            <div class="section-la-petite-histoire">
+                <h1>La petite histoire</h1>
+                <div class="la-petite-histoire">
+                    <div class="section-titre-histoire">
+                        <h2>L'ouverture de la fabrique  2017</h2>
+                    </div>
+                    <div class="arriere-plan-titre-histoire">
+                        <span>
+                            .
+                        </span>
+                    </div>
+                    <div class="arriere-plan-titre-histoire-1">
+                        <span>
+                            .
+                        </span>
+                    </div>
+                </div>
+                <div class="texte-histoire">
+                    <div class="bloc-texte shadow">
+                        <span><img src="img/rouge.png" alt=""></span>
+                        <p class="texte">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iure voluptatibus, autem perferendis quos reprehenderit quod tenetur modi voluptatum corporis nam, voluptates iste, sunt aspernatur! Iusto, autem nulla! Alias praesentium, reprehenderit aliquid facilis architecto ab! Qui molestiae quas harum sunt, fugit suscipit assumenda in ex cum, voluptatem facilis mollitia at.
+                        </p>
+                        <span><img src="img/rouge.png" alt="" class="end"></span>
+                    </div>
+                    <div class="arriere-plan-bloc-texte">
+                        <span>.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="section-notre-pedagogie">
+                <h1>Notre pédagogie</h1>
+                <div class="video-pedagogie">
+                    <iframe width="300" 
+                    height="300"
+                    src="https://www.youtube.com/embed/0PeqnLq12V8" 
+                    title="Pedagogie active simplon"  
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="texte-pedagogie">
+                    <div class="titre"><h2>La pédagogie active</h2></div>
+                    <div class="paragraphe"><p>Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Maiores laboriosam deleniti, 
+                        culpa perspiciatis nemo quos illum? Inventore non totam ea, optio voluptates eveniet in sequi quasi dolorem molestiae saepe eaque, enim laudantium corrupti iure quisquam a amet reprehenderit atque fugiat?Inventore non totam ea, optio voluptates 
+                    </p></div>
+                    <div class="image-pedagogie">
+                        <div class="image"><img src="img/pedag.jpg" alt=""></div>
+                        <div class="arriere-image-pedagogie"><span>.</span></div>
+                    </div>
+                    <div class="pillier-pedagogie-active">
+                        <h2>Les six pilliers de la pédagogie active</h2>
+                        <div class=" carte-pillier-pedagogie">
+                            <div class="deco1">
+                                <img src="img/pointblanc.png" alt="">
+                            </div>
+                            <div class="row d-flex flex-row justify-content-around">
+                                <div class="card shadow" style="width: 9rem;">
+                                    <div class="card-body">
+                                    <h1 class="card-title">01</h1>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <hr size="10px" >
+                                    </div>
+                                </div>
+                                <!--*****-->
+                                <div class="card" style="width: 9rem;">
+                                    <div class="card-body">
+                                    <h1 class="card-title">02</h1>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <hr size="10px" >
+                                    </div>
+                                </div>
+                            </div>  
+                              <!--******-->
+                              <div class="row d-flex flex-row justify-content-around">
+                                <div class="card" style="width: 9rem;">
+                                    <div class="card-body">
+                                    <h1 class="card-title">03</h1>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <hr size="10px" >
+                                    </div>
+                                </div>
+                                <!--***-->
+                                <div class="card shadow" style="width: 9rem;">
+                                    <div class="card-body">
+                                    <h1 class="card-title">04</h1>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <hr size="10px" >
+                                    </div>
+                                </div>
+                              </div>
+                              <!--****-->
+                              <div class="row d-flex flex-row justify-content-around">
+                                <div class="card shadow" style="width: 9rem;">
+                                    <div class="card-body">
+                                    <h1 class="card-title">05</h1>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <hr size="10px" >
+                                    </div>
+                                </div>
+                                <!--**-->
+                                <div class="card" style="width: 9rem;">
+                                    <div class="card-body">
+                                    <h1 class="card-title">06</h1>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <hr size="10px" >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deco2">
+                                <img src="img/pointrouge.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>Nos valeurs</h1>
+            <div class="section-valeurs">
+                <div class="carte-valeure active">
+                    <h3>Respect</h3>
+                </div>
+                <div class="carte-valeure">
+                    <h3>Engagement</h3>
+                </div>
+                <div class="carte-valeure">
+                    <h3>Focus</h3>
+                </div>
+                <div class="carte-valeure">
+                    <h3>Dicupline</h3>
+                </div>
+            </div>
+            <div class="description-valeurs">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores laboriosam deleniti, culpa perspiciatis nemo quos illum? Inventore non totam ea, optio voluptates eveniet in sequi quasi dolorem molestiae saepe eaque, enim laudantium corrupti iure quisquam
+                    a amet repr saepe eaque, enim laudantium corrupti iure quisquam a amet reprehenderit atque fugiat?
+                </p>
+            </div>
+            <button class="btn-voire-plus-valeurs">
+                Voire plus
+            </button>
+        </section>
+        <section>
+            <div class="nos-chiffres">
+                <h1>
+                    Nos chiffres
+                </h1>
+                <div class="chiffres">
+                    <div class="chiffres-1">
+                        <h1>50%</h1>
+                        <p>de femmes dans les formations</p>
+                    </div>
+                    <div class="chiffres-2">
+                        <h1>385</h1>
+                        <p>Apprenant.es formé.es depuis l'ouverture dans <br> le pays  </p>
+                    </div>
+                    <div class="chiffres-3">
+                        <h1>96</h1>
+                        <p>Enfants sensibilisé.es dans le pays</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>Notre équipe</h1>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"  data-bs-interval="10000">
+                            <div class="shadow membre-equipe ">
+                                <img src="img/samba.png" alt="profil">
+                                <h1>Samba kane</h1>
+                                <h2>formateur</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad.
+                                </p>
+                                <div class="d-flex flex-row justify-content-around image-rs">
+                                    <img src="img/twiter.png" alt="">
+                                    <img src="img/inkdink.png" alt="">
+                                    <img src="img/facebook.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000" >
+                            <div class="shadow  membre-equipe" >
+                                <img src="img/sekou.png" alt="profil">
+                                <h1>Seckou sané</h1>
+                                <h2>Responsable</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad.
+                                </p>
+                                <div class="d-flex flex-row justify-content-around image-rs">
+                                    <img src="img/twiter.png" alt="">
+                                    <img src="img/inkdink.png" alt="">
+                                    <img src="img/facebook.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000" >
+                            <div class="shadow  membre-equipe" >
+                                <img src="img/ngor.png" alt="profil">
+                                <h1>Ngor seck</h1>
+                                <h2>formateur</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad.
+                                </p>
+                                <div class="d-flex flex-row justify-content-around image-rs">
+                                    <img src="img/twiter.png" alt="">
+                                    <img src="img/inkdink.png" alt="">
+                                    <img src="img/facebook.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" >
+                        <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #CE0033;"></span>
+                        <span class="visually-hidden" >Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #CE0033;"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+        </section>
+        <section>
+            <div class="recrutement">
+                <h1>Récrutement</h1>
+                <div class="image-recrutement">
+                    <img src="img/recru.png" alt="">
+                </div>
+                <div class="texte-recrutement">
+                    <h2>Pourquoi nous rejoindre?</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates incidunt autem placeat nulla necessitatibus veritatis odio ea nostrum velit dolor magnam ut, repudiandae assumenda debitis corporis earum aspernatur ratione cupiditate, suscipit animi perspiciatis harum! Debitis, et omnis. Vitae, autem nobis. Voluptate officiis dolore reiciendis. Dolor, dicta ex! Asperiores cum eveniet consequuntur minima minus fugiat. Repellat
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class=" col offre-en-cours">
+                <h2>offres en cours </h2>
+                <hr>
+                <h3>Formateur Référent <span>-</span></h3>
+                <h4>Résumé du poste</h4>
+               <div class=" row">
+                    <div class="col">
+                        <p>Loassumenda! Nulla ipsam fuga fugit facere, veniam animi quas dolore sed accusamus? Temporibus, accusamus!
+                        </p>
+                    </div>
+                    <div class="col desc-offres shadow">
+                        <div class="row d-flex flex-row span-texte">
+                            <img src="img/cdd.png" alt=""><span>CDD</span>
+                        </div>
+                        <div class="row d-flex flex-row span-texte">
+                            <img src="img/pleintemps.png" alt=""> <span>Plein temps</span>
+                        </div>
+                        <div class="row d-flex flex-row span-texte">
+                            <img src="img/adress.png" alt=""> <span>Dakar</span>
+                        </div>
+                        <div class="row  d-flex flex-row span-texte">
+                            <img src="img/date.png" alt=""> <span>XX/XY/YYY</span>
+                        </div>
+                    </div>
+                    <div class="ro">
+                        <button class="bouton-postuler-offre-en-cour">
+                            postuler
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <h3>Formateur référent <span>+</span></h3>
+                <hr>
+                <h3>Formateur référent <span>+</span></h3>
+                <hr>
+                <div class="row afficher-plus">
+                    <button class="afficher-plus">
+                        Afficher plus &#x2794;
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12"><br><br>
+                <form action="#" class="row form-offre-en-cours">
+                    <div class="row">
+                        <input type="text" class="form-control m-2 form-control-lg" placeholder="Prenom*">
+                    </div>
+                    <div class="row">
+                        <input type="text" class="form-control m-2 form-control-lg" placeholder="Nom*">
+                    </div>
+                    <div class="row">
+                        <input type="text" class="form-control m-2 form-control-lg" placeholder="Tel*">
+                    </div>
+                    <div class="row">
+                        <input type="text" class="form-control m-2 form-control-lg" placeholder="Mail*">
+                    </div>
+                    <div class="row">
+                    </div>
+                    <div class="row">
+                        <label for="joindre-fichier" class="m-2"><img src="img/joindre-le-symbole-du-trombone1.png" alt=""></label><input type="submit" value="Joindre un fichier" id="joindre-fichier" class="btn btn-link tec form-control-lg joindre-fichier">
+                    </div>
+                    <div class="col">
+                        <textarea class="form-control m-2 form-control-lg" rows="3" placeholder="Message*"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input m-2" id="exampleCheck1">
+                        <label class="form-check-label m-2" for="exampleCheck1">J'accepte les termes et la politique.</label>
+                    </div>
+                    <button type="button" class="btn btn-red buton shadow bouton-form">Rejoindre</button>
+                    <p class="m-2 opacity-50">*Les champs sont obligatoire</p>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="section-nos-partenaire">
+                <h1>Nos partenaires</h1>
+                <div class="logo-partenaires">
+                    <img src="img/part1.png" alt="">
+                    <img src="img/part2.png" alt="">
+                    <img src="img/part3.png" alt="">
+                    <img src="img/part4.png" alt="">
+                </div>
+                <div class="logo-partenaires-ligne-2">
+                    <img src="img/part1.png" alt="">
+                    <img src="img/part2.png" alt="">
+                    <img src="img/part3.png" alt="">
+                    <img src="img/part4.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-md-6 col-xl-3 mt-5">
+                <img src="img/logob.png" alt="icone non pris en cherge par le navigateur" class="ms-3"><br>
+                <div class="reseau-social">
+                    <img src="img/twitbleu.png" alt="icone non pris en cherge par le navigateur" class="rs"> 
+                    <img src="img/facebook.png" alt="icone non pris en cherge par le navigateur" class="rs">
+                    <img src="img/instableu.png" alt="icone non pris en cherge par le navigateur" class="rs"> 
+                    <img src="img/youtubebleu.png" alt="icone non pris en cherge par le navigateur" class="rs">
+                </div>
+            </div>
+            <hr class="trait-footer">
+            <div class="col-md-6 col-xl-3 mt-5 text-light">
+                <h2 class="">Voir plus</h2><br>
+                <a href="#" class="link-a">A propos</a><br>
+                <a href="#" class="link-a">Notre histoire</a><br>
+                <a href="#" class="link-a">Condition d’utilisation</a><br>
+                <a href="#" class="link-a">Politique de confidentialité</a><br>
+                <a href="#" class="link-a">FAQ</a>
+            </div>
+            <hr class="trait-footer">
+            <div class="col-md-6 col-xl-3 mt-5 text-light">
+                <h2>Coordonnées</h2><br>
+                <p class="p-footer">Cité keur Goor Gi<br>
+                    Dakar, Sicap, Libeté 2<br>
+                    Senegal</p>
+                <p class="p-footer">simplon@email.com<br>
+                    help@simplon.com<br>
+                    (221) 77 456 78 90<br>
+                    (221) 77 654 32 10</p>
+            </div>
+            <hr class="trait-footer">
+            <div class="col-md-6 col-xl-3 mt-5 text-light">
+                <h2>Notre Newsletter</h2><br>
+                <p class="p-footer">Souscrivez-vous à notre<br> newsletter pour ne manquer<br> aucune de nos activités</p><br>
+                <div class="input-group newsletter mb-5">
+                    <input type="text" class="form-control form-control-lg" placeholder="Email">
+                    <div class="input-group-append">
+                        <button class="btn btn-red btn-form-footer h-100" type="button" id="texte-bouton">Joindre</button>
+                    </div>
+                </div>
+             </div>
+            <div class="row bande-footer ">
+                <div class="col-6 mt-2">
+                    <p>© 2021 Simplon. All rights reserved.</p>
+                </div>
+                <div class="col-6 mt-2">
+                    <p class="text-end ">Made with <img src="img/coeur.png" alt="icone non pris en cherge par le navigateur"><strong> by SimplonP4</strong></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+
+
+    <script src="main.js"></script>
+</body>
+</html>
